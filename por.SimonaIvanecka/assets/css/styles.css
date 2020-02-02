@@ -17,14 +17,18 @@ oceanblue- #171F30
  }
 *, *:before, *:after{
   box-sizing: inherit;
+
 }
  h1, h2, h3, h4, h5, {
  font-family: 'Julius Sans One', sans-serif;
  }
- h1,h2{
+ h1 {
+   color: #171F30;
+   font-size: 300%;
+ }
+ h2{
    color: #171F30;
  }
-
  p{
 font-family: 'Source Sans Pro', sans-serif;
  }
@@ -40,7 +44,7 @@ font-family: 'Source Sans Pro', sans-serif;
   }
 
 #introduction{
-  margin-top: 25%;
+  margin-top: 15%;
 }
 .contentwrap{
     max-width: 950px;
@@ -48,8 +52,24 @@ font-family: 'Source Sans Pro', sans-serif;
     padding: 20px;
     overflow: auto;
   }
+.projects {
+  	background: #5389A6;
+}
 
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.item {
+  flex: 0 1 200px;
+  background-color: #e9e9e9;
+}
 
+.Education {
+  	background: #E48873;
+}
 .divider > section {
   border-bottom: 1px dashed #171F30;
   padding: 25px 0;
