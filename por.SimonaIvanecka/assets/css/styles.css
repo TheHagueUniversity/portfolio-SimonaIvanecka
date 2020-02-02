@@ -6,9 +6,10 @@ paragraphs-font-family: 'Source Sans Pro', sans-serif;
 /* Colors
 grey- #e9e9e9
 soft pink- #DAB6C8
-lightblue- #A6DCEE
+lightblue- #D3DDE6
 darkerblue- #5389A6
 oceanblue- #171F30
+darkgrey- #C8CEC4
  */
 
  html, body {
@@ -26,7 +27,7 @@ oceanblue- #171F30
    color: #171F30;
    font-size: 300%;
  }
- h2{
+ h2, h3 {
    color: #171F30;
  }
  p{
@@ -64,11 +65,11 @@ font-family: 'Source Sans Pro', sans-serif;
 }
 .item {
   flex: 0 1 200px;
-  background-color: #e9e9e9;
+  background-color: #5389A6;
 }
 
 .Education {
-  	background: #E48873;
+  	background: #D3DDE6;
 }
 .divider > section {
   border-bottom: 1px dashed #171F30;
@@ -77,3 +78,13 @@ font-family: 'Source Sans Pro', sans-serif;
 .divider > section:last-of-type {
   border-bottom: none;
 }
+footer {
+  background: "images/footer.jpg";
+  text-align: center;
+}
+.footer-img {
+  transform: rotate(90deg);
+    width: 100%;
+    height: 1200px;
+    background-size: 100% 100%;
+}​
