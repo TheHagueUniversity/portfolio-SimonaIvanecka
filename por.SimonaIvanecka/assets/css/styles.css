@@ -40,7 +40,7 @@ font-family: 'Source Sans Pro', sans-serif;
  }
  li, a, button {
    font-family: 'Source Sans Pro', sans-serif;
-   font-weight: 500;
+   font-weight: 600;
    font-size: 16px;
   color: #edf0f1;
  }
@@ -60,7 +60,7 @@ header {
   flex-direction: row;
   background-color: #171F30;
   opacity: 0.8;
-  line-height: 45px;
+  line-height: 65px;
   list-style: none;
   width: 100%;
 }
@@ -150,5 +150,10 @@ footer {
   background-size: 80% 80%;
   background-size: cover;
   text-align: center;
-
+}
+.contactlinks a {
+  padding: 12px;
+  width: 30%;
+  display:inline-block;
+  color: #E5B9B6;
 }
