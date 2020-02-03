@@ -5,7 +5,7 @@ paragraphs-font-family: 'Source Sans Pro', sans-serif;
 
 /* Colors
 grey- #e9e9e9
-soft pink- #DAB6C8
+soft pink- #E5B9B6
 lightblue- #D3DDE6
 darkerblue- #5389A6
 oceanblue- #171F30
@@ -18,7 +18,6 @@ darkgrey- #C8CEC4
  }
 *, *:before, *:after{
   box-sizing: inherit;
-
 }
  h1, h2, h3, h4, h5, {
  font-family: 'Julius Sans One', sans-serif;
@@ -33,6 +32,59 @@ darkgrey- #C8CEC4
  p{
 font-family: 'Source Sans Pro', sans-serif;
  }
+ *
+ {
+   box-sizing: border-box;
+   margin: 0px;
+   padding: 0px;
+ }
+ li, a, button {
+   font-family: 'Source Sans Pro', sans-serif;
+   font-weight: 500;
+   font-size: 16px;
+  color: #edf0f1;
+ }
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.nav_link {
+  position: fixed;
+  padding-top: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  background-color: #171F30;
+  opacity: 0.8;
+  line-height: 45px;
+  list-style: none;
+  width: 100%;
+}
+.nav_link li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav_link li a {
+  transition: all 0,3s ease 0s;
+}
+.nav_link li a:hover {
+  color: #0088a9;
+}
+.cta {
+  padding: 0px 12px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  cursor: pointer;
+  transition: all 0,3s ease 0s;
+  position: fixed;
+  top: 0px;
+}
+.cta:hover {
+  background-color: rgba(0, 136, 169, 0,8);
+}
 .home.top{
   width: 50%;
 }
@@ -56,7 +108,6 @@ font-family: 'Source Sans Pro', sans-serif;
 .projects {
   	background: #5389A6;
 }
-
 .container {
   display: flex;
   flex-direction: row;
@@ -67,9 +118,8 @@ font-family: 'Source Sans Pro', sans-serif;
   flex: 0 1 200px;
   background-color: #5389A6;
 }
-
 .Education {
-  	background: #D3DDE6;
+  	background: #91A8B5;
 }
 .divider > section {
   border-bottom: 1px dashed #171F30;
@@ -77,6 +127,9 @@ font-family: 'Source Sans Pro', sans-serif;
 }
 .divider > section:last-of-type {
   border-bottom: none;
+}
+.WorkExperience {
+  	background: #D3DDE6;
 }
 footer {
   background: "images/footer.jpg";
